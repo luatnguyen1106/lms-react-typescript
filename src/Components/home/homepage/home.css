@@ -1,0 +1,235 @@
+.home {
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../img//Group\ 193.png);
+    box-sizing: inherit;
+  }
+
+.navbar {
+    display: contents;
+}
+.navbar-content {
+    background: linear-gradient(359.43deg, #ff5400 2.1%, #f17f21 98.52%);
+    box-shadow: 4px 4px 15px rgba(122, 176, 225, 0.25);
+    height: 1080px;
+    position: relative;
+    width: 112px;
+    z-index: 100;
+}
+
+
+.logo-nav{
+  display: block;
+  margin: 0 auto;
+  /* border-style: solid; */
+  padding-bottom: 81px;
+  padding-top: 58px;
+  position: relative;
+
+}
+
+.navbar-icons {
+    /* align-items: center; */
+    /* cursor: pointer; */
+    display: block;
+    height: 500px;
+    /* justify-content: center; */
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+    position: relative;
+    width: 80px;
+    list-style: none;
+    /* border-style: solid; */
+  }
+
+.icon-sidebar {
+  
+    /* text-align: center; */
+    /* width: 80px;
+    height: 80px; */
+    /* border-style: solid; */
+    border-radius: 16px;
+    /* padding-top: 15px; */
+    
+}
+.icon-sidebar-img{
+  /* display: block; */
+  margin: auto;
+  padding: 20px;
+  border-radius: 16px;
+}
+.icon-sidebar-img:hover{
+  background-color: rgba(255,249,244,0.5);
+}
+
+.navbar-content {
+    /* border-style: solid; */
+}
+
+.navbar-menu {
+    background: #fff;
+    box-shadow: 4px 4px 10px rgba(133, 178, 220, 0.25);
+    height: 1080px;
+    left: 112px;
+    position: absolute;
+    top: 0;
+    transform: translateX(-100%);
+    transition: all linear 0.2s;
+    
+    z-index: 50;
+    
+}
+.navbar:hover .navbar-menu {
+    transform: translateX(0);
+  }
+
+.navbar-menu-list{
+  list-style: none;
+  margin-top: 200px;
+  padding-left: 0;
+  
+}
+.menu-title-item{
+  display: block;
+
+}
+.menu-title-list{
+  list-style: none;
+  padding-left: 0;
+}
+.img-icon_nav-list{
+  display: inline-flex;
+ 
+  margin: 0 5px;
+}
+.icon-nav{
+  margin: 0 10px 0 0;
+  transform: translateY(5px);
+  
+}
+
+.navbar-menu-title__cost .menu-title-list{
+  display: none;
+}
+.navbar-menu-title__cost:hover .menu-title-list{
+  display: block;
+}
+.navbar-menu-title__wage .menu-title-list{
+  display: none;
+}
+.navbar-menu-title__wage:hover .menu-title-list{
+  display: block;
+}
+.navbar-menu-title{
+  margin: 20px 0;
+}
+.menu-title-item{
+  height: 48px;
+  
+}
+.menu-title-item a{
+  line-height: 48px;
+  text-decoration: none;
+  display: block;
+  padding-left: 64px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(55,56,57,0.5);
+
+}
+.menu-title-item:hover a{
+  background-color:#F0F3F6;
+  color: #373839;
+}
+.menu-title-content{
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgba(55,56,57,0.7);
+  margin-left: 30px;
+  display: block;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+/* content */
+.home-content{
+  width: 1640px;
+  margin-left: 125px;
+  
+}
+/* account */
+.content-account{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  left: 0;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 14px;
+  font-size: 16px;
+  
+}
+.account-avatar{
+  margin-right: 5px;
+}
+.account-name{
+  font-weight: 700;
+  
+}
+.account-name::after{
+  content: "";
+  border: solid 0.5px #823B00;
+  /* position: absolute; */
+  /* height: 30px;
+  top: 20px;
+  right: 189px; */
+  margin: 0 10px;
+}
+.account-logout{
+ line-height: 40px;
+ 
+ text-decoration: underline;
+ color: #FF7506;
+ font-weight: 500;
+}
+/* end account */
+
+/* home title */
+.content-address{
+  display: inline-flex;
+  align-items: center;
+  
+}
+.address-previous{
+  font-size: 18px;
+  color: #C9C4C0;
+  display: inline-flex;
+  align-items: center;
+}
+.title_home-icon{
+  width: 21px;
+  height: 26px;
+  margin-top: 4px;
+  margin-left: 28px;
+  margin-right: 28px;
+  display: inline-flex;
+}
+.address-present{
+  font-size: 48px;
+  color: #373839;
+  display: inline-block;
+}
+/* home content */
+.table_content{
+  width: 1640px;
+  height: 816px;
+  background-color: #fff;
+  box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
+  border-radius: 16px;
+}
+.table_content_content{
+  padding: 24px 65px;
+}
+

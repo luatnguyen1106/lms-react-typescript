@@ -1,0 +1,202 @@
+.bg_grey{
+    background: #F0F3F6;
+}
+
+/* detail form */
+.detail_form{
+    height: 141px;
+    background: #FFF9F4;
+    border: 1px solid #FF7506;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.detail_class{
+    display: flex;
+    height: 141px;
+    padding-left: 60px;
+    width: 950px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.form__detail{
+    display: flex;
+   
+}
+.chill_detail{
+    width: 50%;
+}
+.detail__name{
+    margin: 8px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.detail__content{
+    margin: 8px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #373839;
+    opacity: 0.8;
+}
+.from__detail-chill{
+    width: 50%;
+}
+
+/* button list student */
+.button__list-student{
+    width: 222px;
+    height: 52px;
+    background: #FF7506;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    cursor: pointer;
+}
+
+/* quannity noti */
+.quantity_tariff{
+    display: flex;
+    border-bottom: 1px solid rgba(55, 56, 57, 0.2);
+}
+.tariff_name{
+    font-size: 16px;
+    font-weight: 700;
+    color: #373839
+}
+.tariff_number{
+    font-size: 16px;
+    color: #373839;
+    opacity: 0.8;
+    margin-left: 8px;
+}
+
+.list_tariff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list_tariff_name{
+    font-size: 28px;
+    color: #CC5C00;
+    font-weight: 700;
+    
+}
+.button_add_tariff{
+    width: 222px;
+    height: 52px;
+    background: #FF7506;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .button_add_tariff:focus .modal_detail{
+    display: block;
+} */
+.icon_add_tariff{
+    margin-right: 13px;
+    width: 21px;
+}
+
+/* table tariff heading */
+.table_tariff{
+    width: 100%;
+    height: 145px;
+    border-radius: 4px;
+    
+    
+}
+.table_tariff_heading{
+    background: #373839;
+    display: flex;
+    padding: 0 130px 0 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px 4px 0px 0px;
+    
+}
+.tariff_heading_info{
+    
+    display: flex;
+    width: 602px;
+    justify-content: space-between;
+    position: relative;
+}
+.link_tariff_detail{
+    width: 296px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tariff_heading_item{
+    color: #FAFBFC;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* table tariff content  */
+.table_tariff_content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tariff_content_item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.tariff_content {
+    width: 100%;
+    font-size: 16px;
+    padding: 0 130px 0 120px;
+}
+.tariff_content_info{
+    display: flex;
+    width: 726px;
+    /* justify-content: space-between; */
+}
+.link_tariff_detail_icon{
+    width: 296px;
+    display: flex;
+    justify-content: flex-end;
+}
+.tariff_content_icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.tariff_content_name{
+    width: 250px;
+}
+.tariff_content_date{
+    width: 270px;
+}
+.tariff_content_status{
+    
+}
+.tariff_link{
+    display: block;
+    padding-right: 34px;
+}
+.tariff_content_stop{
+    position: absolute;
+    left: 1058px;
+    color: #ED2025;
+    font-weight: 700;
+    text-decoration: underline;
+}
