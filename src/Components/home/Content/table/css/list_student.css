@@ -10,6 +10,7 @@
 .table_list_student{
     width: 1639px;
     height: 813px;
+    background-color: #ffff;
     box-shadow: 4px 4px 25px 4px rgba(154, 202, 245, 0.25);
     border-radius: 16px;
 }
@@ -22,6 +23,7 @@
    justify-content: space-between;
 }
 .list_student--title_name{
+    margin: 0;
     padding: 33px 0 32px 0;
     font-size: 18px;
     font-weight: 700;
@@ -48,6 +50,7 @@
     
 }
 .student--table--heading{
+    margin: 0;
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -72,3 +75,104 @@
     font-weight: 500;
 }
 /* table_content */
+.list_student--content{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list_student--content_item:nth-of-type(2n){
+    background-color: #F0F3F6;
+}
+.list_student--content_item{
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    color: #373839;
+}
+.student--content_item--order{
+    padding-left: 44px;
+    padding-right: 90px;
+}
+.student--content_item--name{
+    width: 200px;
+    padding-right: 5px;
+}
+.student--content_item--id{
+    width: 146px;
+}
+.student--content_item--sex{
+    width: 146px;
+}
+.student--content_item--birthday{
+    width: 150px;
+}
+.student--content_item--quantity{
+    width: 180px;
+    text-align: center;
+    padding-right: 80px;
+}
+.student--content_item--discount{
+    
+    width: 218px;
+}
+.student--content_item--status{
+    width: 166px;
+}
+.content_item--status--done{
+    position: relative;
+    list-style: circle;
+    border-radius: 4px;
+    padding-left: 20px;
+    color: #0B80EC;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.content_item--status--done::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #0B80EC;
+    width: 134px;
+    height: 37px;
+    left: -2px;
+    top: -8px;
+    border-radius: 4px;
+}
+.content_item--status--notdone{
+    position: relative;
+    list-style: circle;
+    border-radius: 4px;
+    padding-left: 20px;
+    color: #ED2025;
+    font-size: 16px;
+    font-weight: 500;
+}
+.content_item--status--notdone::before{
+    content: "";
+    position: absolute;
+    border: 2px solid #ED2025;
+    width: 150px;
+    height: 37px;
+    left: -2px;
+    top: -8px;
+    border-radius: 4px;
+}
+
+.content_list_student--sum{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #373839;
+}
+
+.content_list_student--footer{
+    display: flex;
+    padding-top: 100px;
+    margin-bottom: 28px;
+    justify-content: space-between;
+    align-items: center;
+}

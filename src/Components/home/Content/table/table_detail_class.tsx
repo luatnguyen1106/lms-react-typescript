@@ -106,6 +106,7 @@ function Table_detail_class(){
               
                 
                 {isOpen && <Modal_detail setIsOpen={setIsOpen} />}
+                
             </div>
         
         

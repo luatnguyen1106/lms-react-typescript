@@ -1,0 +1,33 @@
+.return_num{
+    display: flex;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+.num_return{
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+    margin: 0 8px;
+    border: 1px solid #FF7506;
+    border-radius: 4px;
+    padding-left: 6px;
+    font-style: normal;
+}
+.number_page{
+    display: flex;
+    align-items: center;
+    
+}
+.number_page_icon{
+    height: 10px;
+}
+.number_page_on{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #373839;
+    font-weight: 500;
+}

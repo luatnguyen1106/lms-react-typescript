@@ -6,6 +6,7 @@ import TitleBack from "./title/title_back";
 import TitleTarget from "./title/title_target";
 import FaChevronRight from "./img/chevron_big_right.png"
 import "./table/css/list_student.css"
+import "./table/css/table.css"
 import Table_list_student from "./table/table_list_student";
 
 export default class List_student_content extends Component{

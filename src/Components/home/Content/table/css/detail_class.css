@@ -192,6 +192,7 @@
 .tariff_link{
     display: block;
     padding-right: 34px;
+    cursor: pointer;
 }
 .tariff_content_stop{
     position: absolute;
