@@ -1,5 +1,5 @@
 import React from "react";
-import icon_button from "../img/icon button.png";
+import icon_button from "../../img/icon button.png";
 import { Link } from "react-router-dom";
 function Table_content(des:any){
     // const Class = [

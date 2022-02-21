@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Account from "./account/account";
 import Title_home from "./title/title";
-import Table_detail_class from "./table/table_detail_class";
+import Table_detail_class from "./table/table_detail_class/table_detail_class";
 import TitleBack from "./title/title_back";
 import TitleTarget from "./title/title_target";
 import FaChevronRight from "./img/chevron_big_right.png"
@@ -13,7 +13,7 @@ export default class Detail_Class extends Component{
             
                 <div className="home-content">
                 <Account
-                user_name = "Luật Nguyễn"
+                user_name = "Đinh Thái Tài"
                 />
                 <div className="content-address">
                 <TitleBack title_back_name = "Quản lý học phí"/>

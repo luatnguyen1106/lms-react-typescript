@@ -1,11 +1,11 @@
 import React from "react";
 import Detail_class from "./detail_class";
 import { Link } from "react-router-dom";
-import add from "../img/fi_plus.png";
+import add from "../../img/fi_plus.png";
 import Tariff_content from "./table_detail_content";
 import Popup from "reactjs-popup";
 import {useState} from "react";
-import Modal_detail from "../modal/modal_detail/modal_add_detail";
+import Modal_detail from "../../modal/modal_detail/modal_add_detail";
 
 
 

@@ -1,6 +1,6 @@
 import { Component, ReactNode } from "react";
-import caret_down from "../img/caret_down.png";
-import "./css/table-list-class.css";
+import caret_down from "../../img/caret_down.png";
+import "../css/table-list-class.css";
 import icon_button from "../img/icon button.png";
 import DropDown_item from "./dropdown_item";
 import Table_content from "./table_content";

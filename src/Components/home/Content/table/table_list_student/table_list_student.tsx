@@ -1,12 +1,12 @@
 import React from "react";
-import upandown from "./img/u_arrow up down.png";
+import upandown from "../img/u_arrow up down.png";
 import sreach from "./img/search.png";
-import unionleft from "./img/Unionleft.png"
-import unionright from "./img/Unionright.png"
-import info_student from "./img/infor student.png";
-import { Liststudent } from "../../data/listStudent";
-import Number_on_page from "./number_on_table";
-import Number_page from "./number_page";
+import unionleft from "../img/Unionleft.png"
+import unionright from "../img/Unionright.png"
+import info_student from "../img/infor student.png";
+import { Liststudent } from "../../../data/listStudent";
+import Number_on_page from "../component_table/number_on_table";
+import Number_page from "../component_table/number_page";
 import { Link } from "react-router-dom";
 
 function Table_list_student (){

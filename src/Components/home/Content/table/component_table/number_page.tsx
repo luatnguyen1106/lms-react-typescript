@@ -1,7 +1,7 @@
 import React from "react";
-import unionleft from "./img/Unionleft.png"
-import unionright from "./img/Unionright.png"
-import "./css/table.css"
+import unionleft from "../img/Unionleft.png"
+import unionright from "../img/Unionright.png"
+import "../css/table.css"
 
 function Number_page (value:any){
     <div className="number_page">

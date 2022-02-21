@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./home.css";
-import "../css/student_profile.css"
+import "../Content/table/css/student_profile.css"
 import Sidebar from "../sidebar/sidebar";
 import Student_profile from "../Content/home-student-profile";
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import icon_button from "../img/icon button.png";
+import icon_button from "../../img/icon button.png";
 import {useState} from "react";
-import Modal_schedule_detail from "../modal/modal_schedule_detail/modal_schedule_detail";
+import Modal_schedule_detail from "../../modal/modal_schedule_detail/modal_schedule_detail";
 
 const Tariff_content = (value:any) => {
     const [isOpen_Schedule_detail, setIsOpen_Schedule_detail] = useState(false);
