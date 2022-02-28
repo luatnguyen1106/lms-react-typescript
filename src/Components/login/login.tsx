@@ -13,11 +13,7 @@ export const Login = () => {
     const handleSubmit = (e: any) => {
         e.preventDefault();
         
-    }
-
-
-
-    
+    }    
         return (
             <div className="login">
                 <img className="logo" src={logo} alt="logo"/>

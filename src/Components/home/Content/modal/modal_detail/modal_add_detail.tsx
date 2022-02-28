@@ -10,7 +10,6 @@ import {useState} from "react";
 
 const Modal_detail = ({ setIsOpen } : {setIsOpen : any}) => {
     
-    
     return(
         <div className="modal" >
             <div className="modal_overlay">

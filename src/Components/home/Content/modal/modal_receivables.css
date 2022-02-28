@@ -5,6 +5,7 @@
     left: 0;
     bottom: 0;
     z-index: 160;
+    
 }
 .receivables_overlay{
     position: absolute;
@@ -20,7 +21,147 @@
     background: #FFFFFF;
     border-radius: 16px;
     position: fixed;
+    /* margin-left: 30%;
+    margin-top: 10%; */
+
 }
 .receivables_body_content{
-    padding: 0 64px;
+    padding: 8px 8px 0px 64px;
+}
+
+.receivables_body_control {
+    display:flex;
+   flex-wrap: wrap;
+   justify-content: flex-end; 
+   align-items : center;
+   /* border-style: solid; */
+}
+
+.receivables_body_code {
+    /* border-style: solid; */
+    display:flex;
+   /* flex-wrap: wrap; */
+   align-items: center;
+   height: 40px;
+}
+.receivables_body_table {
+    align-items: center;
+    height: 40px;
+    
+}
+.receivables_body_table_content {
+    padding-right: 64px;
+}
+.receivables_body_control_icon {
+    width: 32px;
+}
+.receivables_body_code_number {
+    padding-left: 29px;
+}
+.table-receivables {
+    border: 1px solid #F2F2F2;
+    width: 756px;
+
+}
+.table-receivables-title {
+    border-radius: 8px 8px 0px 0px;
+    align-items: center;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
+    /* justify-content: space-between; */
+    color: #FFFFFF;
+    font-weight: 500;
+    width: 756px;
+    
+}
+/* table-receivables-title */
+.receivables-title--STT {
+    padding-left: 32px;
+    width: 66px;
+}
+.receivables-title--Ma {
+    width: 171px;
+}
+.receivables-title--NDT {
+    width: 218px;
+}
+.receivables-title--HK {
+    width: 129px;
+}
+
+.table-receivables-content-data-list {
+    padding: 0px;
+    margin: 0px;
+}
+/* table-receivables-content-data-item */
+.table-receivables-content-data-item {
+    list-style: none;
+    height: 60px;
+    width: 756px;
+    align-items: center;
+    display: flex;
+    line-height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    
+}
+.table-receivables-content-data-item:nth-child(even) {
+    background-color: rgba(240, 243, 246, 1);
+}
+.table-receivables-content-data-item--serial{
+    width: 66px;
+    /* border-style: solid; */
+    padding-left: 32px;
+}
+.table-receivables-content-data-item--Ma {
+    width: 171px;
+    /* border-style: solid; */
+}
+.table-receivables-content-data-item--Noi_Dung_Thu {
+    width: 218px;
+    display: flex;
+    align-items: center;
+    /* border-style: solid; */
+    line-height: 20px;
+
+}
+.table-receivables-content-data-item--Hoc_Ky {
+    width: 129px;
+}
+
+.receivables_body_table_Total {
+    display: flex;
+    width: 726px;
+    height: 58px;
+    background: #F2F2F2;
+    padding-left: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.Total {
+    color: rgba(204, 92, 0, 1);
+}
+.Price {
+    width: 538px;
+    text-align: end;
+}
+.btn {
+    width: 176px;
+    height: 52px;
+    background: #FF7506;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    line-height: 50px;
+    justify-content: center;
+    margin: 30px 0 0 300px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+
 }
