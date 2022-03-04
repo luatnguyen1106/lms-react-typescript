@@ -3,13 +3,14 @@ import Account from "./account/account";
 import TitleBack from "./title/title_back";
 import TitleTarget from "./title/title_target";
 import right from "./img/chevron_big_right.png";
+import Table_student_profile from "./table/table_student_profile/table_student_profile";
 
 
 function Student_profile () {
     return(
         <div className="home-content">
             <Account 
-            user_name = "Luật Nguyễn"
+            user_name = "Đinh Thái Tài"
             />
             <div className="content_address">
                 <TitleBack title_back_name = "Quản lý học phí"/>
@@ -21,6 +22,10 @@ function Student_profile () {
                 <TitleTarget title_target_name = "Chi tiết học viên"/>
                 
             </div>
+
+            <p className="student_profile_title">Hồ sơ học viên</p>
+
+            <Table_student_profile/>
         </div>
     )
 }
